@@ -1,0 +1,21 @@
+/* bugSolution.css */
+/* Correcting unit mismatch */
+.container {
+  width: calc(100% - 10px);
+}
+
+/* Correcting operator precedence with parentheses */
+.element {
+  width: calc((100% - 20px) / 2);
+}
+
+/* Example with multiple calculations */
+.complex {
+  width: calc(50% + 20px - 5%);
+  height: calc(100px + 2em);
+}
+
+/* Adding spaces for readability */
+.spaced {
+  width: calc(  100%  -  10px  );
+}
